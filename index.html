@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>LaoFe - Menu</title>
+<meta name="description" content="ເບິ່ງເມນູ ອາຫານ · ເຄື່ອງດື່ມ · ເຫຼົ້າ & ເບຍ ຂອງ LaoFé Cafe & Beer">
+
+<!-- Open Graph / WhatsApp / Facebook / Line link preview -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LaoFé Cafe & Beer">
+<meta property="og:title" content="LaoFé - Menu">
+<meta property="og:description" content="ເບິ່ງເມນູ ອາຫານ · ເຄື່ອງດື່ມ · ເຫຼົ້າ & ເບຍ ຂອງ LaoFé Cafe & Beer">
+<meta property="og:url" content="https://laofe2025.github.io/Menu/">
+<meta property="og:image" content="https://laofe2025.github.io/Menu/laofe_menu_preview.jpg">
+<meta property="og:image:secure_url" content="https://laofe2025.github.io/Menu/laofe_menu_preview.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="LaoFé Menu - Food, Drink, Alcohol">
+<meta property="og:locale" content="lo_LA">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LaoFé - Menu">
+<meta name="twitter:description" content="ເບິ່ງເມນູ ອາຫານ · ເຄື່ອງດື່ມ · ເຫຼົ້າ & ເບຍ ຂອງ LaoFé Cafe & Beer">
+<meta name="twitter:image" content="https://laofe2025.github.io/Menu/laofe_menu_preview.jpg">
+
+<!-- ຄົນທີ່ບໍ່ໄດ້ເປີດ JS ໃຫ້ເດັ້ງໄປໜ້າເມນູຈິງ (bot preview ບໍ່ຕາມ noscript) -->
+<noscript><meta http-equiv="refresh" content="0; url=menu.html"></noscript>
+
+<style>
+  html,body{margin:0;height:100%;background:#080603;color:#e8ce8a;
+    font-family:-apple-system,"Noto Sans Lao","Segoe UI",sans-serif;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;overflow:hidden;}
+  .brand{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,11vw,64px);
+    letter-spacing:1px;color:#d2ac5a;line-height:1;margin-bottom:10px;}
+  .sub{font-size:clamp(.6rem,3vw,.8rem);letter-spacing:6px;color:#8a7a54;
+    text-transform:uppercase;margin-bottom:34px;}
+  .spin{width:34px;height:34px;border:3px solid rgba(210,172,90,.25);
+    border-top-color:#d2ac5a;border-radius:50%;animation:s 1s linear infinite;}
+  @keyframes s{to{transform:rotate(360deg)}}
+  .load{margin-top:18px;font-size:.85rem;color:#9a8a6c;}
+  a.go{margin-top:26px;color:#e8ce8a;font-size:.9rem;text-decoration:underline;
+    text-underline-offset:4px;}
+</style>
+</head>
+<body>
+  <div class="brand">LaoFé</div>
+  <div class="sub">Cafe &amp; Beer</div>
+  <div class="spin"></div>
+  <div class="load">ກຳລັງເປີດເມນູ...</div>
+  <a class="go" href="menu.html">ກົດທີ່ນີ້ ຖ້າບໍ່ເດັ້ງອັດຕະໂນມັດ</a>
+
+  <script>
+    // browser ຄົນຈິງ → ເດັ້ງໄປໜ້າເມນູເຕັມ (bot preview ບໍ່ run JS ຈຶ່ງຢູ່ໜ້ານີ້ ແລະ ອ່ານ meta ໄດ້)
+    location.replace('menu.html' + location.search + location.hash);
+  </script>
+</body>
+</html>
